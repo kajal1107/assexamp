@@ -1,0 +1,3 @@
+$('#users').html("<%= escape_javascript(render partial: 'user', locals: { users: @users } ) %>"); 
+var input = document.getElementById("user_name");
+input.value = '';
